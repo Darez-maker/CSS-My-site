@@ -25,6 +25,11 @@ h3{
     padding-top: 100px;
 }
 
+.profile2{
+    border-radius: 100%;
+   
+}
+
 .top-cloud{
     position: absolute;
     right: 300px;
