@@ -2,13 +2,14 @@ body{
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
+    color: #40514e;
 }
 hr{
-border-style:  none;
-border-top-style: dotted ;
- border-color: grey;
- border-width: 5px;
- width: 10%;
+  border-style:  none;
+  border-top-style: dotted ;
+  border-color: grey;
+  border-width: 5px;
+  width: 10%;
 }
 
 h1{
@@ -24,6 +25,7 @@ h2{
     font-family: 'Montserrat', sans-serif;
     color: #66bfbf;
     font-weight: normal;
+    padding-bottom: 10px;
 }
 
 h3{
@@ -31,7 +33,9 @@ h3{
     color: #11999e;
    
 }
-
+ p{
+    line-height: 2;
+ }
 
 
 a{
@@ -55,17 +59,17 @@ a{
 .top-cloud{
     position: absolute;
     right: 300px;
-    top: 50px;
+    top: 40px;
 }
 
 .bottom-cloud{
     position: absolute;
     left: 300px;
-    bottom: 300px;
+    bottom: 250px;
 }
 
 .middle-container{
-    
+    margin: 100px 0;
 }
 
 .bottom-container{
@@ -86,7 +90,7 @@ a{
     width: 50%;
     margin: 100px auto 100px auto;
     text-align: left;
-    line-height: 2;
+    
 }
 .skill-img{
     width: 25%;
@@ -102,6 +106,11 @@ a{
 }
 .pro{
     text-decoration: underline;
+}
+
+.intro{
+    width: 30%;
+    margin: auto;
 }
 
 .contact_button {
